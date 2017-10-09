@@ -9,7 +9,7 @@ services:
     depends_on:
       - node-odm-1
   node-odm-1:
-    image: cleveland-metroparks/node-opendronemap
+    image: opendronemap/node-opendronemap:v0.3.1
     container_name: node-odm-1
     ports:
       - "3000"
